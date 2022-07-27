@@ -1,0 +1,6 @@
+.hideMenuNav {
+  @apply hidden;
+}
+.showMenuNav {
+  @apply absolute w-full h-screen top-0 left-0 z-10 flex justify-center items-center bg-slate-900 text-slate-300;
+}
