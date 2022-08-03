@@ -6,5 +6,5 @@
 }
 
 .navLink{
-  @apply hover:text-indigo-400;
+  @apply hover:text-indigo-400 tracking-wider font-semibold;
 }
