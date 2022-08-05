@@ -14,7 +14,7 @@ export default function Faq() {
   return (
     <div className="bg-fuchsia-900 px-2">
       <div className="mx-auto my-20 lg:w-6/12 rounded-md py-8">
-        <h1 className="text-2xl text-center text-white mb-10">
+        <h1 className="text-xl lg:text-3xl text-center text-white mb-10">
           FAQ
         </h1>
 
