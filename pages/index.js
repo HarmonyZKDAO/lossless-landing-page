@@ -18,7 +18,7 @@ export default function Home() {
       >
         Win by saving
       </div>
-      <div className="w-96">
+      <div className="lg:w-96">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
       </div>
       </div>
