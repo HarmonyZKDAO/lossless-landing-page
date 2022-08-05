@@ -7,6 +7,8 @@ import styles from "../styles/Home.module.css";
 export default function Home() {
   return (
     <div>
+      <div className="px-2 space-y-5">
+
       <div
         className="text-4xl font-semibold 
             bg-gradient-to-r bg-clip-text  text-transparent 
@@ -16,7 +18,15 @@ export default function Home() {
       >
         Win by saving
       </div>
+      <div className="w-96">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
+      </div>
+      </div>
+
       <HowItWorks />
+      <div className="text-center">
+        More content
+      </div>
       <Faq />
     </div>
   );
