@@ -1,0 +1,9 @@
+.stepWrapper {
+  @apply flex space-x-3 items-center;
+}
+.numberWrapper {
+  @apply flex items-center justify-center rounded-lg bg-blue-700 font-medium w-12 h-11 flex-shrink-0;
+}
+.number {
+  @apply text-blue-100 font-semibold text-2xl;
+}

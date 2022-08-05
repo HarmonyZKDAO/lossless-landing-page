@@ -15,7 +15,7 @@ export default function Layout({ children }) {
         <meta name="description" content="Lossless Landing Page" />
         <meta name="theme-color" content="#22d3ee" />
       </Head>
-      <div className="flex flex-col min-h-screen px-2 bg-slate-900 text-slate-300">
+      <div className="flex flex-col min-h-screen bg-slate-900 text-slate-300">
         <Header />
         <main className="mb-auto">{children}</main>
         <Footer />
