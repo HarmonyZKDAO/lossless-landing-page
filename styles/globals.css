@@ -32,3 +32,11 @@ img {
 ::-webkit-scrollbar-thumb {
   @apply rounded-md bg-slate-500 hover:bg-slate-400;
 }
+
+
+details > summary {
+  list-style: none;
+}
+details > summary::-webkit-details-marker {
+  display: none;
+}
