@@ -6,7 +6,7 @@ import { Twitter, GitHub } from "react-feather";
 export default function Header() {
   const year = new Date().getFullYear();
   return (
-    <footer className="py-5 px-2">
+    <footer className="py-5 px-2 bg-neutral-900">
       <div className="pt-3 pb-5 flex justify-center items-center space-x-5">
         <span>Community</span>
 
@@ -15,7 +15,7 @@ export default function Header() {
           title="Github Profile"
           target="_blank"
           rel="noreferrer noopener nofollow"
-          className="p-3 hover:bg-gray-800 rounded-lg text-indigo-500 transition-all"
+          className="p-3 hover:bg-neutral-800 rounded-lg text-indigo-500 transition-all"
         >
           <GitHub />
         </a>
@@ -24,7 +24,7 @@ export default function Header() {
           title="Twitter Profile"
           target="_blank"
           rel="noreferrer noopener nofollow"
-          className="p-3 hover:bg-gray-800 rounded-lg text-indigo-500 transition-all"
+          className="p-3 hover:bg-neutral-800 rounded-lg text-indigo-500 transition-all"
         >
           <Twitter />
         </a>
