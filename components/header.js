@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import Link from "next/link";
 import styles from "../styles/Header.module.css";
 
@@ -24,31 +24,10 @@ export default function Header() {
     },
   ];
 
-  const scrollFunction = (x) => {
-    if (
-      (document.body.scrollTop > 50 ||
-        document.documentElement.scrollTop > 50) &&
-      x.matches
-    ) {
-      document.getElementById("header").style.paddingBottom = "0.5rem";
-      document.getElementById("header").style.paddingTop = "0.5rem";
-    } else {
-      document.getElementById("header").style.paddingBottom = "2rem";
-      document.getElementById("header").style.paddingTop = "2rem";
-    }
-  };
-
-  useEffect(() => {
-    window.onscroll = function () {
-      var x = window.matchMedia("(min-width: 1024px)");
-      scrollFunction(x);
-    };
-  }, []);
-
   return (
     <header
       id="header"
-      className="flex items-center justify-between py-8 px-6 sticky top-0 bg-gray-900 transition-all duration-300 ease-linear"
+      className="flex items-center justify-between py-8 px-6 top-0 bg-gray-900 transition-all duration-300 ease-linear"
     >
       <Link href="/">Logo</Link>
       <nav>
